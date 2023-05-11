@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Incremental Casino</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Incremental Casino</h1>
+      <div id="coin-count">
+        Coins: <span id="coins">0</span>
+        <button id="beg-button">Beg</button>
+      </div>
+    </header>
+
+  </body>
+</html>
+
+
+    <main>
+      <!-- Coinflip section -->
+      <section id="coinflip">
+        <h2>Coinflip</h2>
+        <p>Win double your bet by correctly guessing heads or tails.</p>
+        <div id="coinflip-bet">
+          Bet: <input type="number" id="coinflip-bet-amount" min="1" value="1"> <!-- input field for the bet amount -->
+          <button id="coinflip-bet-button">Bet</button> <!-- button to place the bet -->
+        </div>
+        <div id="coinflip-results">
+          <p>Result: <span id="coinflip-result"></span></p>
+          <p>Coins won: <span id="coinflip-coins-won"></span></p>
+        </div> <!-- displays the result of the coinflip game -->
+      </section>    
+      
+      
+
+      <!-- Roulette section -->
+      <section id="roulette">
+        <h2>Roulette</h2>
+        <p>Choose your numbers and spin the wheel for a chance to win big.</p>
+        <div id="roulette-bet">
+          Bet: <input type="number" id="roulette-bet-amount" min="1" value="1"> <!-- input field for the bet amount -->
+          <button id="roulette-bet-button">Bet</button> <!-- button to place the bet -->
+        </div>
+        <div id="roulette-results"></div> <!-- displays the result of the roulette game -->
+      </section>
+
+
+
+      <!-- Slots section -->
+      <section id="slots">
+        <h2>Slots</h2>
+        <p>Spin the reels and match the symbols to win coins.</p>
+        <div id="slots-bet">
+          Bet: <input type="number" id="slots-bet-amount" min="1" value="1"> <!-- input field for the bet amount -->
+          <button id="slots-bet-button">Bet</button> <!-- button to place the bet -->
+        </div>
+        <div id="slots-results"></div> <!-- displays the result of the slots game -->
+      </section>
+
+
+
+      <!-- Blackjack section -->
+      <section id="blackjack">
+        <h2>Blackjack</h2>
+        <p>Get as close to 21 as possible without going over.</p>
+        <div id="blackjack-bet">
+          Bet: <input type="number" id="blackjack-bet-amount" min="1" value="1"> <!-- input field for the bet amount -->
+          <button id="blackjack-bet-button">Bet</button> <!-- button to place the bet -->
+        </div>
+        <div id="blackjack-results"></div> <!-- displays the result of the blackjack game -->
+      </section>
+
+
+
+      <!-- Baccarat section -->
+      <section id="baccarat">
+        <h2>Baccarat</h2>
+        <p>Choose which hand will have a higher value, the Player hand or the Banker hand.</p>
+        <div id="baccarat-bet">
+          Bet: <input type="number" id="baccarat-bet-amount" min="1" value="1"> <!-- input field for the bet amount -->
+          <button id="baccarat-bet-button">Bet</button>
+        </div>
+        <div id="baccarat-results"></div>
+      </section>
+    </main>
+
+
+
+    <footer>
+      <p>Developed by BARFOED &copy; 2023</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

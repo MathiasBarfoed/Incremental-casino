@@ -1,0 +1,5 @@
+Game 1: Coinflip
+Game 2: Roulette
+Game 3: Slots
+Game 4: Blackjack
+Game 5: Baccarat
